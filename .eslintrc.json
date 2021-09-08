@@ -1,0 +1,95 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "project": "./tsconfig.json",
+        "tsconfigRootDir": ".",
+        "ecmaVersion": 2018,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "plugins": [
+        "@typescript-eslint",
+        "react-hooks"
+    ],
+    "extends": [
+        "airbnb-typescript"
+    ],
+    "rules": {
+        "react-hooks/rules-of-hooks": "error",
+        "react-hooks/exhaustive-deps": "warn",
+        "react/prop-types": 0,
+        "react/require-default-props": 0,
+        "react/no-array-index-key": 0,
+        "no-return-assign": 0,
+        "no-param-reassign": 0,
+        "no-unused-vars": "off",
+        "@typescript-eslint/no-unused-vars": "warn",
+        "@typescript-eslint/no-var-requires": "off",
+        "@typescript-eslint/explicit-module-boundary-types": "off",
+        "@typescript-eslint/indent": [
+            "error",
+            4,
+            {
+                "SwitchCase": 1
+            }
+        ],
+        "@typescript-eslint/semi": "off",
+        "array-callback-return": "off",
+        "comma-dangle": "off",
+        "consistent-return": "off",
+        "@typescript-eslint/comma-dangle": [
+            "off"
+        ],
+        "import/prefer-default-export": "off",
+        "no-console": "off",
+        "@typescript-esling/no-explicit-any": "off",
+        "jsx-a11y/anchor-is-valid": [
+            "off",
+            {
+                "components": [
+                    "Link"
+                ],
+                "specialLink": [
+                    "hrefLeft",
+                    "hrefRight"
+                ],
+                "aspects": [
+                    "invalidHref",
+                    "preferButton"
+                ]
+            }
+        ],
+        "indent": "off",
+        "max-len": [
+            "error",
+            {
+                "code": 200
+            }
+        ],
+        "react/jsx-closing-bracket-location": 0,
+        "react/react-in-jsx-scope": "off",
+        "react/jsx-indent": [
+            2,
+            4
+        ],
+        "react/jsx-indent-props": [
+            2,
+            4
+        ],
+        "react/jsx-props-no-spreading": [
+            "off",
+            {
+                "custom": "ignore"
+            }
+        ]
+
+    },
+    "settings": {
+        "react": {
+            "pragma": "React",
+            "version": "detect"
+        }
+    }
+}
