@@ -1,15 +1,11 @@
-This project is a simple tetris game for React using the following tools: TypeScript, Redux(thunk), styled-components, material-ui, Jest
+This project is a simple tetris game for React using the following tools: TypeScript, Redux(thunk), styled-components
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm install && npm run start`
+### `npm install && npm run dev`
 
-Make sure you have the node installed.
-Default road to start project.
+To install all packages and run dev env.
 
-### `npm run dev`
-### `npm run build`
-### `npm run lint`
-### `npm run lint:fix`
+See packages.json for all available commands.
