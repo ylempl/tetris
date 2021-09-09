@@ -1,4 +1,4 @@
-This project is a simple tetris game for React using the following tools: TypeScript, Redux(thunk), styled-components
+This project is a simple tetris game for React using the following tools: React, TypeScript, styled-components.
 
 ## Available Scripts
 
@@ -8,4 +8,4 @@ In the project directory, you can run:
 
 To install all packages and run dev env.
 
-See packages.json for all available commands.
+See `packages.json` for all available commands.
